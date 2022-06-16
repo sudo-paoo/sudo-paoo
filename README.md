@@ -1,4 +1,4 @@
-<h1 align="center">Helloe 👋</h1>
+<h1 align="center">Heloe 👋</h1>
 <h3 align="center">wala akong magawa kaya ako'y nandito</h3>
 
 - 🌱 Currently learning **Python**
