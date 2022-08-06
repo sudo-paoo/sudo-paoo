@@ -1,6 +1,5 @@
 <h3 align="center">basta alam ko wala akong magawa</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
