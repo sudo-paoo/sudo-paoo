@@ -8,5 +8,3 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=sudo-paoo&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍ HAHAHA
-![](https://i.imgur.com/c9cq4gK.png)
