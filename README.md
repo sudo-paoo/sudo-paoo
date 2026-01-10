@@ -2,66 +2,63 @@
 
 ###
 
-```python
-class Pao:
-    pass
+## About Me
 
-class Info(Pao):
-    def __init__(self):
-        pass
-    
-    def about(self):
-        age = 18
-        country = 'PH'
+```typescript
+interface Profile {
+  name: string;
+  age: number;
+  location: string;
+  role: string;
+  program: string;
+  school: string;
+}
 
-        return age, country
-    
-    def coding(self):
-        languages = {
-            'intermediate': ['python', 'javascript'],
-            'learning': ['java','php','numpy','pandas','tensorflow']
-        }
-        databases = ['firebase']
-        machineLearning = ['numpy','pandas','tensorflow']
-        environment = ['vscode', 'netbeans']
+class Developer implements Profile {
+  constructor(
+    public name: string,
+    public age: number,
+    public location: string,
+    public role: string,
+    public program: string,
+    public school: string
+  ) {}
+}
 
-        return languages, databases, machineLearning, environment
+// Initialize profile
+const pao = new Developer(
+  "Pao",
+  20,
+  "Tarlac, Central Luzon, PH",
+  "Full-stack Developer",
+  "BS Computer Science",
+  "Tarlac State University"
+);
 ```
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sudo-paoo&theme=dark&hide_border=false&include_all_commits=true&count_private=true">
-    <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudo-paoo&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
-</div>
+## Tech Stack
 
-<div>
-  
-</div>
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-<div align="center">
-    <h2>Skills</h2>
-  <p align="center">
-    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
-    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
-    <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase">
-    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
-    <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white">
-    <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
-    <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-    <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
-  </p>
-</div>
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=black&style=for-the-badge)
 
-###
+### Databases
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-<br clear="both">
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sudo-paoo/sudo-paoo/output/snake.svg" alt="Snake animation" />
-</p>
-
-
-###
-
- <!--<img src="https://github-readme-stats.vercel.app/api?username=sudo-paoo&theme=dark&hide_border=false&include_all_commits=true&count_private=true">-->
- <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudo-paoo&theme=dark&hide_border=false"><br> -->
+### Tools & Environment
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
